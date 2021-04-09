@@ -1,0 +1,106 @@
+@import "~antd/dist/antd.css";
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+.Home{
+  display: flex;
+}
+.container_images{
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+.container_content{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-left: 5%;
+  flex-wrap: wrap;
+}
+.title{
+width: 75%;
+font-family: 'Paytone One', sans-serif;
+font-size: 28px;
+text-align: center;
+}
+.content{
+  width: 75%;
+font-family: 'Avenir';
+font-size: 24px;
+text-align: center;
+color: #595959;
+flex-wrap: wrap;
+}
+.button{
+width:280px;
+height:40px;
+background: #65B32E;
+border-radius: 4px;
+color:white;
+margin-left: 15%;
+border:#65B32E solid 2px ;
+}
+.content_Form{
+  display: flex;
+}
+.content_logo{
+  display: flex;
+  flex-direction: column;
+}
+.content_form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-left: 5%;
+  flex-wrap: wrap;
+}
+.ant-form-item-control-input-content{
+  display: flex;
+  width: 500px;
+}
+.content_form_titles{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.title_form{
+font-family: 'Paytone One', sans-serif;
+font-size: 28px;
+color: #595959;
+}
+.content_form{
+  font-family: 'Avenir';
+font-size: 18px;
+color: #595959;
+}
+.ant-btn{
+  margin-left: 35%;
+  width: 250px;
+  background: #65B32E;
+border-radius: 4px;
+border: #65B32E solid 2px;
+}
+.title_login{
+  font-family: 'Paytone One', sans-serif;
+font-size: 24px;
+text-align: center;
+color: #595959;
+}
+.login{
+  display: flex;
+}
+.content_login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-left: 10%;
+}
+.container_recuperación{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ text-align: center;
+}
